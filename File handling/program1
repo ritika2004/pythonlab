@@ -1,0 +1,7 @@
+f=open("abc.txt","w")
+f.write("Hello World")
+f.close()
+f=open("abc.txt","r")                 Q-1
+data=f.read()
+print(data)
+f.close()
