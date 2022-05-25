@@ -1,0 +1,6 @@
+lst=[]
+with open ("abc.txt") as f:
+    for i in f:                 
+        lst.append(i)
+print(len(lst))  
+
