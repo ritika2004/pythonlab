@@ -1,0 +1,4 @@
+with open("abc.txt") as f:                    
+    data=f.read().split()        
+    p=max(data,key=len)
+print(p)
