@@ -1,0 +1,6 @@
+f=open("students.txt","w")
+for i in range(0,5):
+    name=input("ENTER THE NAME")
+    f.write(name+"\n")
+f.close()    
+    
