@@ -1,0 +1,5 @@
+lst=[]
+with open("abc.txt") as f:                  
+    for line in f:
+        lst.append(line)
+print(lst)
