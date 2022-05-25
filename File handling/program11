@@ -1,0 +1,5 @@
+f=open("abc.txt","r")
+c=f.readlines()
+s=c[-1]
+print(s)
+f.close()
