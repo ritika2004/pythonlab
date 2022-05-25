@@ -1,0 +1,9 @@
+f1=open("sports.txt","r")
+f2=open("athletics.txt","w")
+content=f1.readlines()
+for i in content:
+    l=i.split()
+    if l[0]=="Athletics":
+        f2.write(l[1]+"\n")
+f1.close()
+f2.close()
