@@ -1,0 +1,5 @@
+d={1:'ritika',4:'kumari',6:'agrawal'}
+s=''
+for i in d:
+	s=s+d[i]
+print(s)
