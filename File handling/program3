@@ -1,0 +1,7 @@
+f=open("abc.txt","a")
+f.write("Hello! This is me Ritika")
+f.close()                          
+f=open("abc.txt","r")
+content=f.read()
+print(content)
+f.close()
