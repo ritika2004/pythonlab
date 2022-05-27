@@ -1,0 +1,7 @@
+def area_perimeter(x,y):
+    a=x*y
+    p=2*(x+y)
+    return a,p
+x=int(input())
+y=int(input())
+print(area_perimeter(x,y))'''
