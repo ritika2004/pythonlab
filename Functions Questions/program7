@@ -1,0 +1,6 @@
+def area_circum(r):
+    a=3.14*(r**2)
+    c=2*3.14*r
+    return a,c
+r=int(input())
+print(area_circum(r))
