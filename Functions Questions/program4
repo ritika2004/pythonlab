@@ -1,0 +1,14 @@
+str=input("enter the string:")
+r=""
+ch=int(input("enter your choice what do you want to delete  1 for  consonants  or 2 for  vowels:"))
+if ch==1:
+    for i in str:
+        if i in "aeiouAEIOU":
+            r=r+i
+    print((r))   
+elif  ch==2:
+    for i  in str:
+        if i  not in "aeiouAEIOU":
+            r=r+i
+    print((r))   
+       
