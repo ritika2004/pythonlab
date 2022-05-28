@@ -1,0 +1,4 @@
+import random as rd
+a=list(map(str,input().split()))
+rd.shuffle(a)
+print(a)
