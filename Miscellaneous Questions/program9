@@ -1,0 +1,6 @@
+try:
+    n=int(input(‘Enter the number’))
+    print(n**2)
+except KeyboardInterrupt as e:
+    print(“Do not press ctrl+c ”,e)
+print(“Bye”)
