@@ -1,0 +1,5 @@
+import random as rd
+a=int(input("enter the lower range : "))
+b=int(input("enter the upper range : "))
+c=int(input("enter the step jump range : "))
+print(rd.randrange(a,b,c))'''
