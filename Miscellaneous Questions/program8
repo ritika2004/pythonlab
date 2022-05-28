@@ -1,0 +1,6 @@
+try:
+   n=int(input(‘Enter the number’))
+   print(n**2)
+except ValueError as e:
+   print(“Please Check before you enter ”,e)
+print(“Bye”)
